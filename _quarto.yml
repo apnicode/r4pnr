@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "r4pnr"
-  author: "Norah Jones"
+  title: "R for Plant Nutrition Research"
+  author: "T.S. Murrell"
   date: "12/15/2023"
   chapters:
     - index.qmd

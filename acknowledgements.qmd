@@ -1,5 +1,0 @@
----
-title: "acknowldgements"
----
-
-We wish to thank many people.

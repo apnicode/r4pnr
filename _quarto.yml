@@ -14,6 +14,7 @@ book:
           city: Benguérir
           postal-code: 43150
           country: Morocco
+          url: https://www.apni.net/
   date: "12/15/2023"
   chapters:
     - index.qmd

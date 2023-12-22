@@ -35,6 +35,7 @@ affiliations:
     city: Benguérir
     postal-code: 43150
     country: Morocco
+    url: https://um6p.ma/en/school-agriculture-fertilization-and-environmental-sciences
   - id: Purdue
     name: Purdue University
     department: Department of Agronomy
@@ -43,6 +44,7 @@ affiliations:
     state: IN
     postal-code: 47907
     country: United States
+    url: https://ag.purdue.edu/department/agry/
 
 bibliography: references.bib
 

@@ -7,6 +7,13 @@ book:
     - name: "T.S. Murrell"
       id: TSM
       orcid: 0000-0002-8213-0815
+      email: s.murrell@apni.net
+      affiliation:
+        - name: African Plant Nutrition Institute
+          address: UM6P Experimental Farm
+          city: Benguérir
+          postal-code: 43150
+          country: Morocco
   date: "12/15/2023"
   chapters:
     - index.qmd

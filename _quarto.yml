@@ -8,11 +8,12 @@ book:
       id: TSM
       orcid: 0000-0002-8213-0815
       email: s.murrell@apni.net
-      affiliations:
+      corresponding: TRUE
+      affiliation:
         - ref: APNI
         - ref: UM6P
         - ref: Purdue
-  affiliations:
+  affiliation:
     - id: APNI
       name: African Plant Nutrition Institute
       address: UM6P Experimental Farm

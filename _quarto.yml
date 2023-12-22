@@ -9,33 +9,10 @@ book:
       orcid: 0000-0002-8213-0815
       email: s.murrell@apni.net
       corresponding: TRUE
-      affiliation:
+      affiliations:
         - ref: APNI
         - ref: UM6P
         - ref: Purdue
-  affiliation:
-    - id: APNI
-      name: African Plant Nutrition Institute
-      address: UM6P Experimental Farm
-      city: Benguérir
-      postal-code: 43150
-      country: Morocco
-      url: https://www.apni.net/
-    - id: UM6P
-      name: Université Mohammed VI Polytechnique
-      department: ESAFE
-      address: Lot 660, Hay Moulay Rachid
-      city: Benguérir
-      postal-code: 43150
-      country: Morocco
-    - id: Purdue
-      name: Purdue University
-      department: Department of Agronomy
-      address: 915 Mitch Daniels Blvd
-      city: West Lafayette
-      state: IN
-      postal-code: 47907
-      country: United States
   date: "12/15/2023"
   chapters:
     - index.qmd
@@ -43,6 +20,29 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
+affiliations:
+  - id: APNI
+    name: African Plant Nutrition Institute
+    address: UM6P Experimental Farm
+    city: Benguérir
+    postal-code: 43150
+    country: Morocco
+    url: https://www.apni.net/
+  - id: UM6P
+    name: Université Mohammed VI Polytechnique
+    department: ESAFE
+    address: Lot 660, Hay Moulay Rachid
+    city: Benguérir
+    postal-code: 43150
+    country: Morocco
+  - id: Purdue
+    name: Purdue University
+    department: Department of Agronomy
+    address: 915 Mitch Daniels Blvd
+    city: West Lafayette
+    state: IN
+    postal-code: 47907
+    country: United States
 
 bibliography: references.bib
 

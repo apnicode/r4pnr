@@ -1,3 +1,5 @@
 # Acknowledgements
 
 These are the acknowledgements
+
+quarto publish gh-pages

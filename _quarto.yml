@@ -3,6 +3,17 @@ project:
 
 book:
   title: "R for Plant Nutrition Research"
+  reader-mode: TRUE
+  
+  page-footer: 
+    left: |
+      R for Plant Nutrition Research was written by T.S. Murrell.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  
+  cover-image: cover.png
+  favicon: cover.png
+  
   author:
     - name: "T.S. Murrell"
       id: TSM

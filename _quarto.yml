@@ -7,15 +7,17 @@ book:
   
   page-footer: 
     left: |
-      R for Plant Nutrition Research was written by T.S. Murrell.
+      R for Plant Nutrition Research was written by T.S. Murrell, Ph.D.
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   
   cover-image: cover.png
   favicon: cover.png
+  site-url: https://apnicode.github.io/r4pnr/
+  repo-url: https://github.com/apnicode/r4pnr/
   
   author:
-    - name: "T.S. Murrell"
+    - name: "T.S. Murrell, Ph.D."
       id: TSM
       orcid: 0000-0002-8213-0815
       email: s.murrell@apni.net
@@ -25,6 +27,7 @@ book:
         - ref: UM6P
         - ref: Purdue
   date: "12/15/2023"
+  
   chapters:
     - index.qmd
     - acknowledgements.qmd
@@ -61,7 +64,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: spacelab
+      dark: darkly
   pdf:
     documentclass: scrreprt
 

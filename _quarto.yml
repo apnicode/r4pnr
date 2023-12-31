@@ -65,8 +65,8 @@ bibliography: references.bib
 format:
   html:
     theme:
-      light: spacelab
-      dark: darkly
+      light: pulse
+      dark: superhero
   pdf:
     documentclass: scrreprt
 

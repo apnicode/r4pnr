@@ -3,3 +3,8 @@
 These are the acknowledgements
 
 quarto publish gh-pages
+
+```{r}
+library(shiny)
+runExample("01_hello")
+```

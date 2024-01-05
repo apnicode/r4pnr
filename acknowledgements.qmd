@@ -6,5 +6,7 @@ quarto publish gh-pages
 
 ```{r shiny_1}
 library(shiny)
+
+#| context: server
 runExample("01_hello")
 ```

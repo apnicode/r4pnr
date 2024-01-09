@@ -1,3 +1,13 @@
-# Preparing External Data for R
+# Preparing External Data
 
-In this chapter, we provide guidance for preparing data in files external to R.
+Before we import data into R, we need to ensure that they are ready. Key things to check are:
+
+-   the way data are organized
+-   the labels used
+-   data classes
+
+## Data Organization
+
+R requires that data be in a "[tidy format](https://tidyr.tidyverse.org/articles/tidy-data.html)." An excerpt taken from
+
+-   

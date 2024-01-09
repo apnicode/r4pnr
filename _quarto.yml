@@ -33,6 +33,7 @@ book:
     - license.qmd    
     - intro.qmd
     - preparing_external_data.qmd
+    - summary.qmd
     - acknowledgements.qmd    
     - references.qmd
 affiliations:

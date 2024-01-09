@@ -8,6 +8,10 @@ Before we import data into R, we need to ensure that they are ready. Key things 
 
 ## Data Organization
 
-R requires that data be in a "[tidy format](https://tidyr.tidyverse.org/articles/tidy-data.html)." An excerpt taken from
+R requires that data be "[tidy](https://tidyr.tidyverse.org/articles/tidy-data.html)" According to [@tidyr], tidy data are structured so that:
 
--   
+-   Every column is a variable
+-   Every row is an observation of each variable (missing values are also acceptable)
+-   Every cell contains only one value
+
+An example of tidy data are shown below in

@@ -7,7 +7,7 @@ book:
   
   page-footer: 
     left: |
-      R for Plant Nutrition Research was written by T.S. Murrell, Ph.D.
+      Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0 Deed</a>.
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   
@@ -30,9 +30,9 @@ book:
   
   chapters:
     - index.qmd
-    - acknowledgements.qmd
     - intro.qmd
     - preparing_external_data.qmd
+    - acknowledgements.qmd    
     - references.qmd
 affiliations:
   - id: APNI

@@ -1,12 +1,15 @@
 # Preparing External Data
 
-Before we import data into R, we need to ensure that they are ready. Key things to check are:
+In this chapter, we discuss how to prepare external files that you have access to and can edit. We limit our discussion to spreadsheet files, such as Microsoft Excel and Google Sheets, since they are widely used in plant nutrition research.
 
--   the way data are organized
--   the labels used
--   data classes
+We discuss best practices for:
 
-## Data Organization
+-   organizing data
+-   labeling columns
+-   denoting missing values
+-   using data validation rules
+
+## Organizing Data
 
 R requires that data be "[tidy](https://tidyr.tidyverse.org/articles/tidy-data.html)" According to [@tidyr], tidy data are structured so that:
 
@@ -14,4 +17,4 @@ R requires that data be "[tidy](https://tidyr.tidyverse.org/articles/tidy-data.h
 -   Every row is an observation for each variable; if no observation exists for a given variable, it is acceptable to use an entry that denotes a missing value
 -   Every cell contains only one value
 
-An example of tidy data are shown below in
+An example of a spreadsheet with tidy data is shown below ().

@@ -25,6 +25,13 @@
     "href": "preparing_external_data.html#data-organization",
     "title": "3  Preparing External Data",
     "section": "3.1 Data Organization",
-    "text": "3.1 Data Organization\nR requires that data be in a “tidy format.” An excerpt taken from"
+    "text": "3.1 Data Organization\nR requires that data be “tidy” According to (Wickham, Vaughan, and Girlich 2023), tidy data are structured so that:\n\nEach column is a unique variable\nEvery row is an observation for each variable; if no observation exists for a given variable, it is acceptable to use an entry that denotes a missing value\nEvery cell contains only one value\n\nAn example of tidy data are shown below in\n\n\n\n\nWickham, Hadley, Davis Vaughan, and Maximilian Girlich. 2023. Tidyr: Tidy Messy Data. https://tidyr.tidyverse.org."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Wickham, Hadley, Davis Vaughan, and Maximilian Girlich. 2023. Tidyr:\nTidy Messy Data. https://tidyr.tidyverse.org."
   }
 ]

@@ -32,7 +32,7 @@ book:
     - index.qmd
     - acknowledgements.qmd
     - intro.qmd
-    - summary.qmd
+    - preparing_external_data.qmd
     - references.qmd
 affiliations:
   - id: APNI

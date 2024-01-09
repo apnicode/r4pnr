@@ -7,11 +7,11 @@
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "acknowledgements.html",
-    "href": "acknowledgements.html",
-    "title": "1  Acknowledgements",
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "1  License",
     "section": "",
-    "text": "The authors with to acknowledge the many farmers, agricultural service providers, university students, faculty, and staff, as well as the statisticians and data scientists who have shared their time, expertise, insights, and guidance over the past many years. All of these interactions have created the vision for this work.\nquarto publish gh-pages"
+    "text": "This work is licensed under Creative Commons CC BY-NC-ND 4.0 DEED, Attribution-NonCommercial-NoDerivs 4.0 International. You are free to copy and redistribute the material in any medium or format under the following terms:\n\nAttribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial - You may not use the material for commercial purposes.\nNoDerivatives - If you remix, transform, or build upon the material, you may not distribute the modified material."
   },
   {
     "objectID": "intro.html",
@@ -21,11 +21,18 @@
     "text": "This book is intended to be a living compendium of procedures used in the field of plant nutrition. Because it is housed on GitHub, it is open-source and open-access, allowing interested experts to contribute, either by submitting additional procedures or by editing existing ones. We hope that, over time, this work becomes a source of best practices operationalized routinely by students, staff, and faculty in educational organizations, as well as by professionals in business and industry.\nWe dedicated ourselves to using only software that is open-access. This decision is meant to democratize this guidance for everyone with access to only a computer and the internet. Software applications with hidden fees and paywalls were avoided. All content was produced using Quarto for books, and using GitHub as a repository for all book content, including figures and data sets. Editing was performed in RStudio Desktop, and all code chunks were written in R. When topics related to spreadsheets were addressed, we used Google Sheets.\nWe hope you find this resource useful. If you see ways to improve it, please contact info@apni.net."
   },
   {
-    "objectID": "preparing_external_data.html#data-organization",
-    "href": "preparing_external_data.html#data-organization",
+    "objectID": "preparing_external_data.html#organizing-data",
+    "href": "preparing_external_data.html#organizing-data",
     "title": "3  Preparing External Data",
-    "section": "3.1 Data Organization",
-    "text": "3.1 Data Organization\nR requires that data be “tidy” According to (Wickham, Vaughan, and Girlich 2023), tidy data are structured so that:\n\nEach column is a unique variable\nEvery row is an observation for each variable; if no observation exists for a given variable, it is acceptable to use an entry that denotes a missing value\nEvery cell contains only one value\n\nAn example of tidy data are shown below in\n\n\n\n\nWickham, Hadley, Davis Vaughan, and Maximilian Girlich. 2023. Tidyr: Tidy Messy Data. https://tidyr.tidyverse.org."
+    "section": "3.1 Organizing Data",
+    "text": "3.1 Organizing Data\nR requires that data be “tidy” According to (Wickham, Vaughan, and Girlich 2023), tidy data are structured so that:\n\nEach column is a unique variable\nEvery row is an observation for each variable; if no observation exists for a given variable, it is acceptable to use an entry that denotes a missing value\nEvery cell contains only one value\n\nAn example of a spreadsheet with tidy data is shown below ().\n\n\n\n\nWickham, Hadley, Davis Vaughan, and Maximilian Girlich. 2023. Tidyr: Tidy Messy Data. https://tidyr.tidyverse.org."
+  },
+  {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "4  Acknowledgements",
+    "section": "",
+    "text": "The authors with to acknowledge the many farmers, agricultural service providers, university students, faculty, and staff, as well as the statisticians and data scientists who have shared their time, expertise, insights, and guidance over the past many years. All of these interactions have created the vision for this work.\nquarto publish gh-pages"
   },
   {
     "objectID": "references.html",

@@ -49,7 +49,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="next">
+<link href="./acknowledgements.html" rel="next">
 <link href="./intro.html" rel="prev">
 <link href="./cover.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -132,14 +132,14 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+  <a href="./license.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">License</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./acknowledgements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Acknowledgements</span></span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -152,6 +152,12 @@ div.csl-indent {
   <div class="sidebar-item-container"> 
   <a href="./preparing_external_data.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preparing External Data</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./acknowledgements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Acknowledgements</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -170,7 +176,7 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#data-organization" id="toc-data-organization" class="nav-link active" data-scroll-target="#data-organization"><span class="header-section-number">3.1</span> Data Organization</a></li>
+  <li><a href="#organizing-data" id="toc-organizing-data" class="nav-link active" data-scroll-target="#organizing-data"><span class="header-section-number">3.1</span> Organizing Data</a></li>
   </ul>
 </nav>
     </div>
@@ -199,21 +205,23 @@ div.csl-indent {
 
 </header>
 
-<p>Before we import data into R, we need to ensure that they are ready. Key things to check are:</p>
+<p>In this chapter, we discuss how to prepare external files that you have access to and can edit. We limit our discussion to spreadsheet files, such as Microsoft Excel and Google Sheets, since they are widely used in plant nutrition research.</p>
+<p>We discuss best practices for:</p>
 <ul>
-<li>the way data are organized</li>
-<li>the labels used</li>
-<li>data classes</li>
+<li>organizing data</li>
+<li>labeling columns</li>
+<li>denoting missing values</li>
+<li>using data validation rules</li>
 </ul>
-<section id="data-organization" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="data-organization"><span class="header-section-number">3.1</span> Data Organization</h2>
+<section id="organizing-data" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="organizing-data"><span class="header-section-number">3.1</span> Organizing Data</h2>
 <p>R requires that data be “<a href="https://tidyr.tidyverse.org/articles/tidy-data.html">tidy</a>” According to <span class="citation" data-cites="tidyr">(<a href="references.html#ref-tidyr" role="doc-biblioref">Wickham, Vaughan, and Girlich 2023</a>)</span>, tidy data are structured so that:</p>
 <ul>
 <li>Each column is a unique variable</li>
 <li>Every row is an observation for each variable; if no observation exists for a given variable, it is acceptable to use an entry that denotes a missing value</li>
 <li>Every cell contains only one value</li>
 </ul>
-<p>An example of tidy data are shown below in</p>
+<p>An example of a spreadsheet with tidy data is shown below ().</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
@@ -579,15 +587,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link">
-        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./acknowledgements.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Acknowledgements</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">R for Plant Nutrition Research was written by T.S. Murrell, Ph.D.</div>   
+    <div class="nav-footer-left">Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0 Deed</a>.</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>

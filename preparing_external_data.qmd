@@ -10,8 +10,8 @@ Before we import data into R, we need to ensure that they are ready. Key things 
 
 R requires that data be "[tidy](https://tidyr.tidyverse.org/articles/tidy-data.html)" According to [@tidyr], tidy data are structured so that:
 
--   Every column is a variable
--   Every row is an observation of each variable (missing values are also acceptable)
+-   Each column is a unique variable
+-   Every row is an observation for each variable; if no observation exists for a given variable, it is acceptable to use an entry that denotes a missing value
 -   Every cell contains only one value
 
 An example of tidy data are shown below in

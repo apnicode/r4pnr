@@ -29,6 +29,7 @@ book:
   date: "12/15/2023"
   
   chapters:
+    - license.qmd
     - index.qmd
     - intro.qmd
     - preparing_external_data.qmd

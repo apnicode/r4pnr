@@ -1,9 +1,7 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+This book is intended to be a living compendium of procedures used in the field of plant nutrition. Because it is housed on GitHub, it is open-source and open-access, allowing interested experts to contribute, either by submitting additional procedures or by editing existing ones. We hope that, over time, this work becomes a source of best practices operationalized routinely by students, staff, and faculty in educational organizations, as well as by professionals in business and industry.
 
-See @knuth84 for additional discussion of literate programming.
+We dedicated ourselves to using only software that is open-access. This decision is meant to democratize this guidance for everyone with access to only a computer and the internet. Software applications with hidden fees and paywalls were avoided. All content was produced using [Quarto for books](https://quarto.org/docs/books/), and using [GitHub](https://quarto.org/docs/publishing/github-pages.html) as a repository for all book content, including figures and data sets. Editing was performed in [RStudio Desktop](https://posit.co/download/rstudio-desktop/), and all code chunks were written in [R](https://cran.r-project.org/). When topics related to spreadsheets were addressed, we used [Google Sheets](https://www.google.com/sheets/about/).
 
-```{r}
-1 + 1
-```
+We hope you find this resource useful. If you see ways to improve it, please contact [info\@apni.net](mailto:info@apni.net).
